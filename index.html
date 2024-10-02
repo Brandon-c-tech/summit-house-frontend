@@ -19,16 +19,16 @@
             font-family: serif;
         }
         h1 {
-            font-size: 6rem; /* 调整 h1 的字体大小 */
+            font-size: 4rem; /* 调整 h1 的字体大小 */
         }
         h2 {
-            font-size: 4.5rem; /* 调整 h2 的字体大小 */
+            font-size: 3.5rem; /* 调整 h2 的字体大小 */
         }
         h3 {
-            font-size: 3.5rem; /* 调整 h3 的字体大小 */
+            font-size: 2.5rem; /* 调整 h3 的字体大小 */
         }
         h4 {
-            font-size: 3rem; /* 调整 h4 的字体大小 */
+            font-size: 2rem; /* 调整 h4 的字体大小 */
         }
         .grid {
             display: grid;
@@ -42,6 +42,18 @@
             max-width: 100%;
             height: auto;
             object-fit: cover;
+        }
+        img[src*="picture-left"], img[src*="picture-right"] {
+        width: 350px; /* 左右图片稍微放大 */
+        height: 450px;
+        }
+        img[src*="2-p-1"], img[src*="2-p-2"] {
+            width: 250px; /* 第二行的图片也稍微放大 */
+            height: 450px;
+        }
+        img[src*="ai1"], img[src*="ai2"], img[src*="ai3"] {
+            width: 250px; /* "Topics we care about" 图片放大 */
+            height: 350px;
         }
         .italic {
             font-style: italic;
