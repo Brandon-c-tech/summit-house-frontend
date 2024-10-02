@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berkeley Summit House</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+        header, main, footer {
+            padding: 1rem;
+        }
+        h1, h2, h3, h4 {
+            font-family: serif;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+        .grid-3 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        .italic {
+            font-style: italic;
+        }
+        .text-gray {
+            color: #666;
+        }
+        .bg-black {
+            background-color: black;
+            color: white;
+        }
+        footer h2 {
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://sm.ms/image/9ocbHEv7Wh4wjOy" alt="Berkeley Summit House Logo" width="40" height="40">
+    </header>
+    
+    <main>
+        <section class="grid">
+            <div>
+                <h1 class="italic">Wandering in the AI era at the Summit</h1>
+                <img src="/placeholder.svg?height=300&width=400" alt="Summit gathering">
+            </div>
+            <div>
+                <img src="/placeholder.svg?height=300&width=400" alt="Summit discussion">
+            </div>
+        </section>
+
+        <section class="grid">
+            <h2 class="grid-span-2">Be part of us to spark convo & ideas <span class="text-gray">about the newest tech trend</span></h2>
+            <img src="/placeholder.svg?height=200&width=400" alt="Collaboration">
+            <img src="/placeholder.svg?height=200&width=400" alt="Historical image" style="filter: grayscale(100%);">
+        </section>
+
+        <section>
+            <h3>Topics we <span class="italic">care</span> about</h3>
+            <div class="grid grid-3">
+                <div>
+                    <h4>AI in product & their making</h4>
+                    <img src="/placeholder.svg?height=200&width=300" alt="AI in product">
+                </div>
+                <div>
+                    <h4>AI model infrastructure</h4>
+                    <img src="/placeholder.svg?height=200&width=300" alt="AI infrastructure">
+                </div>
+                <div>
+                    <h4>AI & energy industry</h4>
+                    <img src="/placeholder.svg?height=200&width=300" alt="AI in energy">
+                </div>
+            </div>
+        </section>
+
+        <section class="grid">
+            <h2 class="grid-span-2">Join the community to interpret & lead the <strong>future together</strong></h2>
+            <img src="/placeholder.svg?height=200&width=200" alt="Community image 1">
+            <img src="/placeholder.svg?height=200&width=200" alt="Community image 2">
+        </section>
+
+        <section class="bg-black">
+            <h2>Embrace AI boom <span class="italic">as Human</span></h2>
+            <ul>
+                <li>Connect</li>
+                <li>Learn</li>
+                <li>Support</li>
+                <li>Reflect</li>
+            </ul>
+            <img src="/placeholder.svg?height=200&width=400" alt="Embracing AI">
+        </section>
+
+        <section>
+            <h2>Upcoming <span class="italic">to the summit...</span></h2>
+            <div class="grid grid-3">
+                <div>
+                    <h4>AI Infrastructure Workshop</h4>
+                    <p>2 hr forum</p>
+                </div>
+                <div>
+                    <h4>Sustainability & AI Panel</h4>
+                    <p>1 hr panel</p>
+                </div>
+                <div>
+                    <h4>AI Hardware Discussion</h4>
+                    <p>3 hr workshop</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black">
+        <h2>JOIN US</h2>
+        <img src="https://sm.ms/image/9ocbHEv7Wh4wjOy" alt="Berkeley Summit House Logo" width="60" height="60">
+    </footer>
+</body>
+</html>
