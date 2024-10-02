@@ -41,18 +41,7 @@
         img {
             max-width: 100%;
             height: auto;
-        }
-        img[src*="picture-left"], img[src*="picture-right"] {
-        width: 350px; /* 左右图片稍微放大 */
-        height: 450px;
-        }
-        img[src*="2-p-1"], img[src*="2-p-2"] {
-            width: 250px; /* 第二行的图片也稍微放大 */
-            height: 450px;
-        }
-        img[src*="ai1"], img[src*="ai2"], img[src*="ai3"] {
-            width: 250px; /* "Topics we care about" 图片放大 */
-            height: 350px;
+            object-fit: cover;
         }
         .italic {
             font-style: italic;
@@ -82,7 +71,7 @@
         <section class="grid">
             <h1 class="italic">Wandering in the AI era at the Summit</h1>
             <div>   
-                <img src="/src/picture-left.png" alt="Summit gathering" width="300" height="400">
+                <img src="/src/picture-left.png" alt="Summit gathering" width="285" height="400">
             </div>
             <div>
                 <img src="/src/picture-right.png" alt="Summit discussion" width="300" height="400">
@@ -92,10 +81,10 @@
         <section class="grid">
             <h2 class="grid-span-2">Be part of us to spark convo & ideas <span class="text-gray">about the newest tech trend</span></h2>
             <div> 
-                <img src="/src/2-p-1.png" alt="Collaboration" width="200" height="400">
+                <img src="/src/2-p-1.png" alt="Collaboration" width="250" height="450">
             </div>
             <div>
-                <img src="/src/2-p-2.png" alt="Historical image" width="200" height="400">
+                <img src="/src/2-p-2.png" alt="Historical image" width="250" height="450">
             </div>
         </section>
 
@@ -104,15 +93,15 @@
             <div class="grid grid-3">
                 <div>
                     <h4>Killer AI product & their making</h4>
-                    <img src="/src/ai1.png" alt="AI in product" width="200" height="300">
+                    <img src="/src/ai1.png" alt="AI in product" width="480" height="300">
                 </div>
                 <div>
                     <h4>AI model infrastructure</h4>
-                    <img src="/src/ai2.png" alt="AI infrastructure" width="200" height="300">
+                    <img src="/src/ai2.png" alt="AI infrastructure" width="480" height="300">
                 </div>
                 <div>
                     <h4>AI & energy industry</h4>
-                    <img src="/src/ai3.png" alt="AI in energy" width="200" height="300">
+                    <img src="/src/ai3.png" alt="AI in energy" width="480" height="300">
                 </div>
             </div>
         </section>
